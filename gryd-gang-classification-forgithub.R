@@ -1,5 +1,8 @@
 ## ----knit-options, include=FALSE-----------------------------------------
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.path = "gang-classification-figs/")
 
 # version notes
 # v0 fit models

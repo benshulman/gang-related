@@ -933,7 +933,7 @@ sum.plot <- ggplot(plot_data,
 sum.plot
 ```
 
-![](gryd-gang-classification-forgithub_files/figure-html/sum-plots-1.png)<!-- -->
+![](gang-classification-figs/sum-plots-1.png)<!-- -->
 
 ```r
 ggsave("/Users/Ben/Dropbox/PhD/Research/gryd/gang-classification/for github/sum_plot-github.pdf",
@@ -1359,7 +1359,7 @@ ind.or.plot <- ggplot(filter(ind.pred, # no OR for intercept
 ind.or.plot
 ```
 
-![](gryd-gang-classification-forgithub_files/figure-html/odds-plot-1.png)<!-- -->
+![](gang-classification-figs/odds-plot-1.png)<!-- -->
 
 ### Probabilities plot
 
@@ -1391,4 +1391,4 @@ ind.pr.plot <- ggplot(ind.pred,
 ind.pr.plot
 ```
 
-![](gryd-gang-classification-forgithub_files/figure-html/prop-plot-1.png)<!-- -->
+![](gang-classification-figs/prop-plot-1.png)<!-- -->
